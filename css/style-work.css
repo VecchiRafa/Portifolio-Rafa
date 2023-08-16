@@ -1,0 +1,77 @@
+
+.cabecalho {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-weight: 600;
+    padding-left: 10px;
+    color: black;
+    cursor: default;
+    font-size: 2.5rem;
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    color: black;
+    margin-left: 4rem;
+    transition: .2s;
+}
+
+
+.navbar a:hover,
+.navbar a.active {
+    color:#B07B96;
+}
+
+.work-frase {
+    padding: 50px;
+    
+}
+
+.square {
+    width: 300px;
+    height: 200px;
+    padding-left: 50px;
+    display: flex;
+    gap: 20%;
+    position: relative;
+}
+
+.project1 {
+    width: 300px;
+    height: 180px;
+    display: flex;
+    border-radius: 5%;
+    object-fit: cover;
+    box-shadow: 2px 2px 2px gray;
+}
+
+
+.image-caption {
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    position: relative;
+    bottom: 176px;
+    width: 165px;
+}
+
+.icon {
+    position: relative;
+    display: inline-flex;
+    gap: 30px;
+    padding: 50px;
+    font-size: 300%;
+    padding-top: 10px;
+}
+

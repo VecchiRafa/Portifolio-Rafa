@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+section {
+    min-width: 100vh;
+    padding: 2rem 9% 2rem;
+}
+
+.cabecalho {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    color: black;
+    margin-left: 4rem;
+    transition: .2s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color:#B07B96;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.home-frase h3 {
+    font-size: 200%;
+    font-weight: 700;
+}
+
+.home-frase h1 {
+    font-size: 400%;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.home-image {
+    width: 60%;
+    height: 60%;
+    padding-left: 20%;
+}
+
+.social-media a {
+    position: relative;
+    display: inline-flex;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.filhos{
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+    display: aline-flex;
+    gap: 10px;
+    margin-left: 20px;
+    background: transparent;
+    border: .2rem solid #B07B96;
+    border-radius: 100%;
+    padding-left: 15px;
+    padding-top:15px;
+    transition: 1s;
+}
+
+.filhos:hover{
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 29px 1px gray;
+    transition: 1s;
+}
+
